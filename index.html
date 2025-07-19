@@ -2,12 +2,14 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <title>FORTAL INVESTIMENTOS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Especialistas em consórcios, financiamentos e cartas de crédito. Agende seu atendimento com a Fortal Investimentos." />
+    <meta name="keywords" content="consórcio, financiamento, carta de crédito, consórcio contemplado, fortal investimentos, agendar atendimento" />
+    <meta name="author" content="Fortal Investimentos" />
+    <title>Consórcio e Financiamento | Fortal Investimentos</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-      integrity="sha512-yH05R9QnW+e3yIOMVpDQYONN6ADf3F5hBeaFo4eK7mOfyBjKbOMJ1OZPB6xG4HDqzZCkqew5vVef6Z1kkZz1DA=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
@@ -24,7 +26,6 @@
         background-image: url('https://static.vecteezy.com/ti/vetor-gratis/p3/15187163-fundo-de-site-moderno-futurista-de-conexao-de-mapa-do-mundo-ou-de-pagina-de-capa-para-conceito-de-tecnologia-e-financas-e-empresa-futura-de-educacao-vetor.jpg');
         background-size: cover;
         background-position: center;
-        background-repeat: no-repeat;
         min-height: 100vh;
         display: flex;
         flex-direction: column;
@@ -123,11 +124,6 @@
         background-color: #128c7e;
       }
 
-      button img {
-        height: 20px;
-        border-radius: 50%;
-      }
-
       form {
         margin-top: 30px;
         display: flex;
@@ -161,7 +157,7 @@
   </head>
   <body>
     <header>
-      <img src="URL_DA_SUA_IMAGEM" alt="Logo Fortal" />
+      <img src="https://i.imgur.com/WlG4lIs.png" alt="Logo Fortal" />
       <nav>
         <a href="#">Início</a>
         <a href="#">Serviços</a>
@@ -169,17 +165,15 @@
       </nav>
     </header>
 
-    <div class="alert-bar">🎉 Feirão de imóveis e automóveis por tempo limitado!</div>
+    <div class="alert-bar">🎉 Feirão de imóveis e automóveis com taxas reduzidas!</div>
 
     <main>
       <div class="container">
-        <h1>Olá! Me chame Maycon. Sou seu assistente virtual.</h1>
+        <h1>Olá! Sou Maycon, seu assistente virtual.</h1>
         <p>
-          Estou aqui para agendar seu atendimento. Neste momento, estamos com um
-          feirão incrível de imóveis e automóveis! Vamos marcar?
+          Estamos com oportunidades únicas em consórcios, financiamentos e cartas de crédito. Vamos agendar seu atendimento personalizado?
         </p>
-        <button onclick="window.location.href='https://wa.me/558592835198?text=Olá%2C+quero+agendar+meu+atendimento'">
-          <img src="URL_DA_SUA_IMAGEM" alt="WhatsApp" />
+        <button onclick="window.location.href='https://wa.me/558592835198?text=Olá%2C+quero+agendar+meu+atendimento+com+a+Fortal+Investimentos'">
           <i class="fab fa-whatsapp"></i> Agendar pelo WhatsApp
         </button>
 
@@ -195,15 +189,11 @@
 
     <footer>
       <div class="socials">
-        <a href="https://wa.me/558592835198" target="_blank"><i class="fab fa-whatsapp"></i></a>
-        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://wa.me/558592835198" <i class=""></i></a>
+        <i class=""></i></a>
+        <i class=""></i></a>
       </div>
-      <p>&copy; 2025 Fortal Investimentos. com Mais de 38 mil cotas contempladas
-
-Mais de R$ 360 milhões em créditos entregues
-
-Atuação nacional com +20 anos de mercado .</p>
+      <p>&copy; 2025 Fortal Investimentos. Mais de 38 mil cotas contempladas. R$ 360 milhões em créditos entregues. Atuação nacional há mais de 20 anos.</p>
     </footer>
 
     <script>
@@ -211,10 +201,8 @@ Atuação nacional com +20 anos de mercado .</p>
         const nome = document.getElementById("nome").value;
         const telefone = document.getElementById("telefone").value;
         const mensagem = document.getElementById("mensagem").value;
-
         const texto = `Olá! Me chamo ${nome}, meu telefone é ${telefone}. Mensagem: ${mensagem}`;
         const url = `https://wa.me/558592835198?text=${encodeURIComponent(texto)}`;
-
         window.open(url, '_blank');
       }
     </script>

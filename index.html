@@ -1,209 +1,191 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Especialistas em consórcios, financiamentos e cartas de crédito. Agende seu atendimento com a Fortal Investimentos." />
-    <meta name="keywords" content="consórcio, financiamento, carta de crédito, consórcio contemplado, fortal investimentos, agendar atendimento" />
-    <meta name="author" content="Fortal Investimentos" />
-    <title>Consórcio e Financiamento | Fortal Investimentos</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <style>
-      * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-      body {
-        font-family: Arial, sans-serif;
-        color: white;
-        background-image: url('https://static.vecteezy.com/ti/vetor-gratis/p3/15187163-fundo-de-site-moderno-futurista-de-conexao-de-mapa-do-mundo-ou-de-pagina-de-capa-para-conceito-de-tecnologia-e-financas-e-empresa-futura-de-educacao-vetor.jpg');
-        background-size: cover;
-        background-position: center;
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-      }
+  <title>Fortal Investimentos | Consórcio e Crédito</title>
+  <meta name="description" content="Consórcios, financiamentos e carta de crédito com a Fortal Investimentos. Atendimento personalizado e fácil aprovação." />
+  <meta name="keywords" content="consórcio, financiamento, carta de crédito, Fortal Investimentos, crédito fácil, contemplado" />
+  <meta name="author" content="Fortal Investimentos" />
+  <meta name="robots" content="index, follow" />
+  <meta name="google-site-verification" content="AQUI" />
 
-      header {
-        background-color: rgba(0, 0, 0, 0.8);
-        padding: 10px 20px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-      }
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" />
 
-      header img {
-        height: 40px;
-        border-radius: 50%;
-      }
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
 
-      nav a {
-        color: white;
-        margin-left: 15px;
-        text-decoration: none;
-        font-weight: bold;
-      }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-      .alert-bar {
-        background-color: #ff5722;
-        text-align: center;
-        padding: 10px;
-        font-weight: bold;
-        animation: slideDown 1s ease;
-      }
+    body {
+      font-family: Arial, sans-serif;
+      color: white;
+      background-image: url('https://static.vecteezy.com/ti/vetor-gratis/p3/15187163-fundo-de-site-moderno-futurista-de-conexao-de-mapa-do-mundo-ou-de-pagina-de-capa-para-conceito-de-tecnologia-e-financas-e-empresa-futura-de-educacao-vetor.jpg');
+      background-size: cover;
+      background-position: center;
+    }
 
-      @keyframes slideDown {
-        from {
-          transform: translateY(-100%);
-        }
-        to {
-          transform: translateY(0);
-        }
-      }
+    header {
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 10px 20px;
+      display: flex;
+      justify-content: center;
+    }
 
-      main {
-        flex: 1;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 20px;
-      }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
 
-      .container {
-        background-color: rgba(0, 0, 0, 0.7);
-        padding: 30px;
-        border-radius: 15px;
-        max-width: 700px;
-        text-align: center;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
-        animation: fadeIn 1.2s ease;
-      }
+    .alert-bar {
+      background-color: #ff5722;
+      text-align: center;
+      padding: 10px;
+      font-weight: bold;
+      animation: slideDown 1s ease;
+    }
 
-      @keyframes fadeIn {
-        from {
-          opacity: 0;
-          transform: scale(0.95);
-        }
-        to {
-          opacity: 1;
-          transform: scale(1);
-        }
-      }
+    @keyframes slideDown {
+      from { transform: translateY(-100%); }
+      to { transform: translateY(0); }
+    }
 
-      h1 {
-        margin-bottom: 20px;
-      }
+    .container {
+      background-color: rgba(0, 0, 0, 0.75);
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 30px;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+    }
 
-      p {
-        font-size: 18px;
-        margin-bottom: 20px;
-      }
+    h1, h2 {
+      margin-bottom: 20px;
+    }
 
-      button {
-        padding: 12px 24px;
-        font-size: 16px;
-        background-color: #25d366;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        display: inline-flex;
-        align-items: center;
-        gap: 8px;
-        transition: background-color 0.3s ease;
-      }
+    p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
 
-      button:hover {
-        background-color: #128c7e;
-      }
+    button {
+      padding: 12px 24px;
+      font-size: 16px;
+      background-color: #25d366;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
 
-      form {
-        margin-top: 30px;
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-        text-align: left;
-      }
+    button:hover {
+      background-color: #128c7e;
+    }
 
-      input,
-      textarea {
-        padding: 10px;
-        border: none;
-        border-radius: 5px;
-        width: 100%;
-        font-size: 16px;
-      }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-top: 20px;
+    }
 
-      footer {
-        background-color: rgba(0, 0, 0, 0.85);
-        text-align: center;
-        padding: 15px;
-        font-size: 14px;
-      }
+    input, textarea {
+      padding: 12px;
+      border-radius: 6px;
+      border: none;
+      font-size: 16px;
+    }
 
-      .socials i {
-        margin: 0 8px;
-        color: white;
-        font-size: 18px;
-      }
-    </style>
-  </head>
-  <body>
-    <header>
-      <nav>
-        <a href="#">Início</a>
-        <a href="#">Serviços</a>
-        <a href="#">Contato</a>
-      </nav>
-    </header>
+    footer {
+      background-color: rgba(0, 0, 0, 0.85);
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
 
-    <div class="alert-bar">🎉 Feirão de imóveis com taxas reduzidas!</div>
+    .socials {
+      margin-bottom: 10px;
+    }
 
-    <main>
-      <div class="container">
-        <h1>Olá! Sou Maycon, seu assistente virtual.</h1>
-        <p>
-          Estamos com oportunidades únicas em consórcios, financiamentos e cartas de crédito. Vamos agendar seu atendimento personalizado?
-        </p>
-        <button onclick="window.location.href='https://wa.me/558592835198?text=Olá%2C+quero+agendar+meu+atendimento+com+a+Fortal+Investimentos'">
-          <i class="fab fa-whatsapp"></i> Agendar pelo WhatsApp
-        </button>
+    .socials a {
+      margin: 0 10px;
+      font-size: 24px;
+      color: white;
+    }
 
-        <form onsubmit="sendToWhatsApp(); return false;">
-          <h2>Contato Rápido</h2>
-          <input type="text" id="nome" placeholder="Seu nome" required />
-          <input type="tel" id="telefone" placeholder="Telefone / WhatsApp" required />
-          <textarea id="mensagem" placeholder="Mensagem" rows="4" required></textarea>
-          <button type="submit"><i class="fas fa-paper-plane"></i> Enviar</button>
-        </form>
-      </div>
-    </main>
+    .socials a:hover {
+      color: #25d366;
+    }
+  </style>
+</head>
+<body>
 
-    <footer>
-      <div class="socials">
-        <a href="https://wa.me/558592835198" <i class=""></i></a>
-        <i class=""></i></a>
-        <i class=""></i></a>
-      </div>
-      <p>&copy; 2025 Fortal Investimentos. Mais de 38 mil cotas contempladas. R$ 360 milhões em créditos entregues. Atuação nacional há mais de 20 anos.</p>
-    </footer>
+  <header>
+    <nav>
+      <a href="#inicio">Início</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
 
-    <script>
-      function sendToWhatsApp() {
-        const nome = document.getElementById("nome").value;
-        const telefone = document.getElementById("telefone").value;
-        const mensagem = document.getElementById("mensagem").value;
-        const texto = `Olá! Me chamo ${nome}, meu telefone é ${telefone}. Mensagem: ${mensagem}`;
-        const url = `https://wa.me/558592835198?text=${encodeURIComponent(texto)}`;
-        window.open(url, '_blank');
-      }
-    </script>
-  </body>
+  <div class="alert-bar">🚨Estamos com tempo limitado para o fim de feirão — fale agora com um
+  consultor agora!</div>
+
+  <section class="container" id="inicio">
+    <h1>Olá! Sou Maycon, seu assistente virtual</h1>
+    <p>Temos condições especiais em consórcios, cartas de crédito e financiamentos para você realizar seus sonhos.</p>
+    <button onclick="window.location.href='https://wa.me/558592835198?text=Olá%2C+quero+falar+com+a+Fortal+Investimentos'">
+      <i class="fab fa-whatsapp"></i> Agendar via WhatsApp
+    </button>
+  </section>
+
+  <section class="container" id="servicos">
+    <h2>Serviços</h2>
+    <p>Atendemos em todo o Brasil com consórcios de imóveis com Parcelas acessíveis e sem burocracia.</p>
+  </section>
+
+  <section class="container" id="contato">
+    <h2>Fale Conosco</h2>
+    <form onsubmit="enviarParaWhatsApp(); return false;">
+      <input type="text" id="nome" placeholder="Seu nome" required />
+      <input type="tel" id="telefone" placeholder="Telefone / WhatsApp" required />
+      <textarea id="mensagem" placeholder="Mensagem" rows="4" required></textarea>
+      <button type="submit"><i class="fas fa-paper-plane"></i> Enviar mensagem</button>
+    </form>
+  </section>
+
+  <footer>
+    <div class="socials">
+      <a href="https://wa.me/558592835198" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://instagram.com/fortalinvestimentos" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+    <p>&copy; 2025 Fortal Investimentos — Mais de R$ 360 milhões entregues em crédito. Atuação nacional e confiança comprovada.</p>
+  </footer>
+
+  <script>
+    function enviarParaWhatsApp() {
+      const nome = document.getElementById("nome").value;
+      const telefone = document.getElementById("telefone").value;
+      const mensagem = document.getElementById("mensagem").value;
+      const texto = `Olá! Me chamo ${nome}, meu telefone é ${telefone}. Mensagem: ${mensagem}`;
+      const url = `https://wa.me/558592835198?text=${encodeURIComponent(texto)}`;
+      window.open(url, '_blank');
+    }
+  </script>
+
+</body>
 </html>
+ccscscs|T
